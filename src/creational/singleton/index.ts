@@ -7,7 +7,7 @@ import { Singleton } from "./singleton";
  * 
  * Further to this, singletons are header to test against.
  */
-const start = () => {
+(() => {
     const s1 = Singleton.getInstance();
     const s2 = Singleton.getInstance();
 
@@ -16,4 +16,4 @@ const start = () => {
     } else {
         throw Error("The instance should not change.");
     }
-}
+})();
