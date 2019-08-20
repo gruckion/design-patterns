@@ -1,0 +1,26 @@
+{
+  "name": "design-patterns-ts",
+  "version": "0.0.1",
+  "description": "Collection if design patterns implemented in typescript for reference",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly ./src/index.ts"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruckion/design-patterns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruckion/design-patterns/issues"
+  },
+  "homepage": "https://github.com/gruckion/design-patterns#ereadme",
+  "author": "Gruckion Ltd",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.41",
+    "typescript": "^3.5.3"
+  }
+}
